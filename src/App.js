@@ -4,15 +4,21 @@ import styled from 'styled-components';
 
 const AppStyles = styled.div`
   background-image: url(${img});
-  height: 2000px;
+  height: 1200px;
 `;
 
 function App() {
   return (
     <AppStyles>
-      <div class="veiwport">
-        hey
+      <div class="hello">
+        Hello,
       </div>
+      <div>
+        I'm Nate.
+      </div>
+      <button>
+        Click Me
+      </button>
     </AppStyles>
   );
 }
