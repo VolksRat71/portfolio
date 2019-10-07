@@ -1,22 +1,65 @@
-.App {
-  text-align: center;
+.viewport {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
+.landing-grid {
+    background: #1e130c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #9a8478, #1e130c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9a8478, #1e130c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.landing-avatar {
+    height: 200px;
+    margin-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
 }
 
-.App-link {
-  color: #09d3ac;
+.banner-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 1em;
+    margin: 15px;
 }

@@ -1,35 +1,32 @@
 import React from 'react';
 import './App.css';
+import Main from './components/main';
+import { Link } from 'react-router-dom';
 
 import {
   Layout,
   Header,
   Navigation,
   Drawer,
-  Content
+  Content,
 } from 'react-mdl';
 
 function App() {
   return (
-    <div>
-      <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Nathaniel </span><strong>Ryan</strong></span>}>
+    <div className="viewport">
+      <Layout fixedDrawer>
+        <Drawer title="Nathaniel Ryan">
           <Navigation>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-          </Navigation>
-        </Header>
-        <Drawer title="Title">
-          <Navigation>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
+            <Link to="/">Home</Link>
+            <Link to="/aboutme">About Me</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/resume">Resume</Link>
           </Navigation>
         </Drawer>
-        <Content />
+        <Content>
+          <Main />
+        </Content>
       </Layout>
     </div>
   );
