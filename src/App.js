@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 import {
   Layout,
-  Header,
   Navigation,
   Drawer,
   Content,
@@ -13,7 +12,7 @@ import {
 
 function App() {
   return (
-    <div className="viewport">
+    <div>
       <Layout fixedDrawer>
         <Drawer title="Nathaniel Ryan">
           <Navigation>

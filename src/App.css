@@ -51,6 +51,10 @@
     padding-top: 10px;
 }
 
+.proficiencies {
+    padding: 5px;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
