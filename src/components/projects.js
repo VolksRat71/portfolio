@@ -15,6 +15,7 @@ import {
 import rdtrpzIMG from '../assets/projects/RoadTripperZzz/roadtriperzzz.png';
 import ocpygifIMG from '../assets/projects/Occupy_Gif/occupy.jpg';
 import triviaIMG from '../assets/projects/Trivia_Game/trivia.JPG';
+import trainIMG from '../assets/projects/Train_Scheduler/train.JPG';
 
 
 class Projects extends React.Component {
@@ -96,6 +97,23 @@ class Projects extends React.Component {
                                 colored ripple>Website</Button>
                             <Button
                                 href="https://github.com/VolksRat71/triviaGame"
+                                target="_blank"
+                                colored ripple>Github</Button>
+                        </CardActions>
+                    </Card>
+                    {/* Car Trivia */}
+                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 15 }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${trainIMG}) center / cover` }}>Train Scheduler</CardTitle>
+                        <CardText>
+                            A mostly frontend application that communicates with a Google Firebase Database. Feel free to add your own trains to the schedule, I will keep an eye on the database for any changes!
+                        </CardText>
+                        <CardActions border>
+                            <Button
+                                href="https://volksrat71.github.io/trainScheduler/"
+                                target="_blank"
+                                colored ripple>Website</Button>
+                            <Button
+                                href="https://github.com/VolksRat71/trainScheduler"
                                 target="_blank"
                                 colored ripple>Github</Button>
                         </CardActions>
