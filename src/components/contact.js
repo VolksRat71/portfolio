@@ -27,8 +27,12 @@ class Contact extends Component {
                                 className="contact avatar"
                             />
                         </div>
+                    </Cell>
+                    <Cell col={12}>
                         <p style={{ width: '75%', margin: 'auto', }}>
-                            IPhone offal af air plant photo booth selvage. Small batch vice hexagon, food truck adaptogen fingerstache blue bottle photo booth keytar hammock messenger bag. Lo-fi cold-pressed hammock +1. Helvetica cornhole wayfarers synth.
+                            If you wanna get in touch, talk to me about employment, a project collaboration or just say "hi",
+                            fill out a form, use my phone number, email me, add me on LinkdIn. Please take advantage of my many paths of
+                            communication. ~let's talk
                         </p>
                     </Cell>
                     <Cell col={6}>
@@ -36,16 +40,31 @@ class Contact extends Component {
                             Contact Me
                             </h2>
                         <hr />
-                        <List>
+                        <List style={{ width: '75%', textAlign: 'center' }}>
+                            <div style={{ flexWrap: "wrap" }}>
+                                <ListItem>
+                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
+                                        <i class="fa fa-reply"></i>
+                                        {"  "}Fill out a form
+                                </ListItemContent>
+                                </ListItem>
+                            </div>
                             <ListItem>
-                                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
+                                    <i className="fa fa-phone-square" aria-hidden="true" />
+                                    {"  "}(503) 504-7581
+                                </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent icon="person">Aaron Paul</ListItemContent>
-                            </ListItem>
+                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', }}>
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    {"  "}Email
+                                </ListItemContent>                            </ListItem>
                             <ListItem>
-                                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-                            </ListItem>
+                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
+                                    <i class="fa fa-linkedin"></i>
+                                    {"  "}LinkedIn
+                                </ListItemContent>                            </ListItem>
                         </List>
                     </Cell>
                 </Grid>
