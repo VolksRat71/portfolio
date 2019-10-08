@@ -9,10 +9,12 @@ import {
     CardActions,
     CardText,
     Button,
-    CardMenu,
-    IconButton
 } from 'react-mdl';
 
+// Image Imports
+import rdtrpzIMG from '../assets/projects/RoadTripperZzz/roadtriperzzz.png';
+import ocpygifIMG from '../assets/projects/Occupy_Gif/occupy.jpg';
+import triviaIMG from '../assets/projects/Trivia_Game/trivia.JPG';
 
 
 class Projects extends React.Component {
@@ -22,15 +24,36 @@ class Projects extends React.Component {
     }
 
     toggleCategories() {
-        // Frontend Tab
+        // React Native Tab
         if (this.state.activeTab === 0) {
             return (
                 <div>
+                    React Native
+                </div>
+            )
+            // ReactJS Tab
+        } else if (this.state.activeTab === 1) {
+            return (
+                <div>
+                    <p>ReactJS</p>
+                </div>
+            )
+            // Backend Tab
+        } else if (this.state.activeTab === 2) {
+            return (
+                <div>
+                    <p>BackEnd</p>
+                </div>
+            )
+            // Frontend Tab
+        } else {
+            return (
+                <div className="projects-flexWrap">
                     {/* RoadTripperZzz */}
-                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15 }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.cameronestoney.com/images/roadtriperzzz.png) center / cover' }}>RoadtripperZzz</CardTitle>
+                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 15 }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${rdtrpzIMG}) center / cover` }}>RoadtripperZzz</CardTitle>
                         <CardText>
-                            <span role="img" aria-label="road">🛣</span> A front-end only application used for the indecisive traveler! Input the required fields and "Load Up, Bud!". The website will return an attraction in the beautiful Pacific Northwest! <span role="img" aria-label="thumbs-up">👍</span> *disclaimer* Not very mobile friendly
+                            This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
                         </CardText>
                         <CardActions border>
                             <Button
@@ -42,33 +65,42 @@ class Projects extends React.Component {
                                 target="_blank"
                                 colored ripple>Github</Button>
                         </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
+                    </Card>
+                    {/* Occupy Gif */}
+                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 15 }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${ocpygifIMG}) center / cover` }}>Occupy GIF</CardTitle>
+                        <CardText>
+                            A simple frontend application that was inteded to learn request and responses to an API, I decided to take a little step further and flex a little frontend User Experience because I had some freetime that week. When images are clicked on, you can pause and play the GIFs.
+                        </CardText>
+                        <CardActions border>
+                            <Button
+                                href="https://volksrat71.github.io/GifTastic/"
+                                target="_blank"
+                                colored ripple>Website</Button>
+                            <Button
+                                href="https://github.com/VolksRat71/GifTastic"
+                                target="_blank"
+                                colored ripple>Github</Button>
+                        </CardActions>
+                    </Card>
+                    {/* Car Trivia */}
+                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 15 }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${triviaIMG}) center / cover` }}>Car Trivia</CardTitle>
+                        <CardText>
+                            Written with mostly jQuery logic, this was my first attempt at using timers and populating out of arrays. Also if you feel up to the challange; give it a try and test your car knowledge.
+                        </CardText>
+                        <CardActions border>
+                            <Button
+                                href="https://volksrat71.github.io/triviaGame/"
+                                target="_blank"
+                                colored ripple>Website</Button>
+                            <Button
+                                href="https://github.com/VolksRat71/triviaGame"
+                                target="_blank"
+                                colored ripple>Github</Button>
+                        </CardActions>
                     </Card>
                 </div>
-            )
-            // Backend Tab
-        } else if (this.state.activeTab === 1) {
-            return (
-                <div>
-                    <p>Backend</p>
-                </div>
-            )
-            // ReactJS Tab
-        } else if (this.state.activeTab === 2) {
-            return (
-                <div>
-                    <p>ReactJS</p>
-                </div>
-            )
-            // React Native Tab
-        } else {
-            return (
-                <div>
-                    <p>React Native</p>
-                </div>
-
             )
         }
     }
@@ -82,15 +114,13 @@ class Projects extends React.Component {
                     <Tab>Backend</Tab>
                     <Tab>Frontend</Tab>
                 </Tabs>
-                <section className="projects-grid">
-                    <Grid className="projects-grid">
-                        <Cell col={12}>
-                            <div className="content">
-                                {this.toggleCategories()}
-                            </div>
-                        </Cell>
-                    </Grid>
-                </section>
+                <Grid>
+                    <Cell col={12}>
+                        <div className="content">
+                            {this.toggleCategories()}
+                        </div>
+                    </Cell>
+                </Grid>
             </div>
         );
     }
