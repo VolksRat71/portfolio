@@ -16,7 +16,7 @@ class Contact extends Component {
             <div className="contact-body">
                 <Tabs className="contact-header" />
                 <Grid className="contact-grid">
-                    <Cell col={6}>
+                    <Cell col={4}>
                         <h2>
                             Nathaniel Ryan
                         </h2>
@@ -33,12 +33,12 @@ class Contact extends Component {
                             communication. ~let's talk
                         </p>
                     </Cell>
-                    <Cell col={6}>
+                    <Cell col={8}>
                         <h2>
                             Contact Me
                             </h2>
                         <hr />
-                        <List style={{ width: '75%', textAlign: 'center' }}>
+                        <List style={{ width: '75%', margin: 'auto' }}>
                             <ListItem>
                                 <a href="tel:123-456-7890" title="(503) 504-7581">
                                     <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
