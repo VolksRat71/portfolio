@@ -27,8 +27,6 @@ class Contact extends Component {
                                 className="contact avatar"
                             />
                         </div>
-                    </Cell>
-                    <Cell col={12}>
                         <p style={{ width: '75%', margin: 'auto', }}>
                             If you wanna get in touch, talk to me about employment, a project collaboration or just say "hi",
                             fill out a form, use my phone number, email me, add me on LinkdIn. Please take advantage of my many paths of
@@ -41,34 +39,49 @@ class Contact extends Component {
                             </h2>
                         <hr />
                         <List style={{ width: '75%', textAlign: 'center' }}>
-                            <div style={{ flexWrap: "wrap" }}>
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
-                                        <i class="fa fa-reply"></i>
-                                        {"  "}Fill out a form
-                                </ListItemContent>
-                                </ListItem>
-                            </div>
                             <ListItem>
-                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
-                                    <i className="fa fa-phone-square" aria-hidden="true" />
-                                    {"  "}(503) 504-7581
-                                </ListItemContent>
+                                <a href="tel:123-456-7890" title="(503) 504-7581">
+                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
+                                        <i className="fa fa-phone-square" aria-hidden="true" />
+                                        {"  "}(503) 504-7581
+                                    </ListItemContent>
+                                </a>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', }}>
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                    {"  "}Email
-                                </ListItemContent>                            </ListItem>
+                                <a href="mailto: nathanieljryan1994@gmail.com"
+                                    title="nathanieljryan1994@gmail.com">
+                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        {"  "}Email
+                                    </ListItemContent>
+                                </a>
+                            </ListItem>
                             <ListItem>
-                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
-                                    <i class="fa fa-linkedin"></i>
-                                    {"  "}LinkedIn
-                                </ListItemContent>                            </ListItem>
+                                <a href="https://www.linkedin.com/in/nathaniel-ryan-88871817b"
+                                    title="LinkedIn Nathaniel Ryan"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
+                                        <i class="fa fa-linkedin"></i>
+                                        {"  "}LinkedIn
+                                    </ListItemContent>
+                                </a>
+                            </ListItem>
+                            <ListItem>
+                                <a href="https://github.com/VolksRat71"
+                                    title="Github VolksRat71"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
+                                        <i class="fa fa-github" aria-hidden="true" />
+                                        {"  "}Github
+                                    </ListItemContent>
+                                </a>
+                            </ListItem>
                         </List>
                     </Cell>
                 </Grid>
-            </div>
+            </div >
         )
     }
 }
