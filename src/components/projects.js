@@ -51,7 +51,7 @@ class Projects extends React.Component {
             return (
                 <div className="projects-flexWrap">
                     {/* RoadTripperZzz */}
-                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 15 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${rdtrpzIMG}) center / cover` }}>RoadtripperZzz</CardTitle>
                         <CardText>
                             This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
@@ -68,7 +68,7 @@ class Projects extends React.Component {
                         </CardActions>
                     </Card>
                     {/* Occupy Gif */}
-                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 15 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${ocpygifIMG}) center / cover` }}>Occupy GIF</CardTitle>
                         <CardText>
                             A simple frontend application that was inteded to learn request and responses to an API, I decided to take a little step further and flex a little frontend User Experience because I had some freetime that week. When images are clicked on, you can pause and play the GIFs.
@@ -85,7 +85,7 @@ class Projects extends React.Component {
                         </CardActions>
                     </Card>
                     {/* Train Schedueler */}
-                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 15 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${trainIMG}) center / cover` }}>Train Scheduler</CardTitle>
                         <CardText>
                             A mostly frontend application that communicates with a Google Firebase Database. Feel free to add your own trains to the schedule, I will keep an eye on the database for any changes!
@@ -102,7 +102,7 @@ class Projects extends React.Component {
                         </CardActions>
                     </Card>
                     {/* Car Trivia */}
-                    <Card shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 15 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${triviaIMG}) center / cover` }}>Car Trivia</CardTitle>
                         <CardText>
                             Written with mostly jQuery logic, this was my first attempt at using timers and populating out of arrays. Also if you feel up to the challange; give it a try and test your car knowledge.
