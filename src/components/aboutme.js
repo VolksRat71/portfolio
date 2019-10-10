@@ -29,7 +29,7 @@ class About extends Component {
                         />
                         {/* 250 words */}
                         <p className="aboutMe_bio">
-                            I am from a small coal town in the Midwest. I moved to the West Coast to pursue a career in technology and computer sciences. I am currently a free agent
+                            I come from a small coal town in the Midwest. I moved to the West Coast to pursue a career in technology and computer sciences. I am currently a free agent
                             with a formal education through the University of Oregon. My studies have given me proficiency in a wide array of technologies and design capabilities, such as ReactJS,
                             NodeJS, and JavaScript in general. I am interested in following whichever development path my career points me to, although I do have a keen eye for UI/UX.
                             Discovery of this ability has pivoted my focus to backend development, because I realized it is something I need to work on. I am a quick learner and very passionate,
