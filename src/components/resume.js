@@ -13,7 +13,7 @@ class Resume extends Component {
                 <Tabs className="resume-header" />
                 <div className="resume-background">
                     <Grid>
-                        <Cell className="resume" col={10}>
+                        <Cell className="resume" col={12}>
                             <div className="cv instaFade">
                                 <div className="mainDetails">
                                     <div className="name">
