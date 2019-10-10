@@ -179,9 +179,13 @@
 }
 
 .aboutMe_bio {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 26px;
-    text-indent: 60px
+    font-size: 16px;
+    text-indent: 60px;
+    line-height: 2;
 }
 
 /* Resume CSS */
