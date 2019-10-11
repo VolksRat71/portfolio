@@ -282,15 +282,11 @@
     background: #f3f3f3;
     margin: 30px auto;
     box-shadow: 10px 10px 5px black;
-    transition: .2s;
+    transition: .4s;
 }
 
 .cv:hover {
-    transform: scale(1.05);
-}
-
-.cv:active {
-    transform: scale(.9);
+    transform: scale(1.03);
 }
 
 .mainDetails {
@@ -614,4 +610,77 @@ section:last-child {
     -webkit-animation-delay: 0, 2.5s;
     -moz-animation-delay: 0, 2.5s;
     animation-delay: 0, 2.5s;
+}
+
+.FourOhFour {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+}
+
+.FourOhFour img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-grid {
+    background: #00F0D9;
+    width: 100%;
+}
+
+.contact-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    animation-name: reset, fade-in;
+    animation-duration: .6s;
+    animation-timing-function: ease-in;
+    margin-top: 0;
+}
+
+.lets_talk {
+    padding: 5px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.contact-avatar {
+    height: 200px;
+    margin-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: reset, fade-in;
+    animation-duration: .3s;
+    animation-timing-function: ease-in;
+    margin-bottom: 0;
+}
+
+.link-list {
+    display: block;
+    margin: 0 auto;
+}
+
+.list_item {
+    text-decoration: none;
+    color: #fff;
+    animation-name: reset, fade-in;
+    animation-duration: .6s;
+    animation-timing-function: ease-in;
+    transition: .2s;
+}
+
+.list_item:hover {
+    transform: scale(1.03);
 }

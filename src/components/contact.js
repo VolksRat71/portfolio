@@ -2,86 +2,65 @@ import React, { Component } from 'react';
 import {
     Grid,
     Cell,
-    Tabs,
     List,
     ListItem,
-    ListItemContent
+    ListItemContent,
+    ListItemAction,
 } from 'react-mdl';
 
-import img from '../assets/avatars/clean.png';
+import img from '../assets/site_helper/contact-me.gif';
 
 class Contact extends Component {
     render() {
         return (
-            <div className="contact-body">
-                <Tabs className="contact-header" />
+            <div style={{ width: '100%', margin: 'auto', height: '100%' }}>
                 <Grid className="contact-grid">
-                    <Cell col={4}>
-                        <h2>
-                            Nathaniel Ryan
-                        </h2>
-                        <div className="contact-avatar-bkground">
-                            <img
-                                src={img}
-                                alt="contact-avatar"
-                                className="contact avatar"
-                            />
+                    <Cell col={12}>
+                        <img
+                            src={img}
+                            alt="contact avatar"
+                            className="contact-avatar"
+                        />
+                        <div className="contact-container">
+                            <h1>
+                                Contact Me
+                                <hr />
+                                <p className="lets_talk">
+                                    If you wanna get in touch, talk to me about employment, a project collaboration or just say "hi",
+                                    fill out a form, use my phone number, email me, add me on LinkdIn. Please take advantage of my many paths of
+                                    communication. ~let's talk
+                                </p>
+                                <div className="link-list">
+                                    <List>
+                                        <ListItem>
+                                            <ListItemAction>
+                                                <a href="/contact" className="list_item">
+                                                    <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+                                                </a>
+                                            </ListItemAction>
+                                        </ListItem>
+                                        <ListItem>
+                                            <ListItemAction>
+                                                <a href="/contact" className="list_item">
+                                                    <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                                                </a>
+                                            </ListItemAction>
+                                        </ListItem>
+                                        <ListItem>
+                                            <ListItemAction>
+                                                <a href="/contact" className="list_item">
+                                                    <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                                                </a>
+                                            </ListItemAction>
+                                        </ListItem>
+                                    </List>
+                                </div>
+                            </h1>
                         </div>
-                        <p style={{ width: '75%', margin: 'auto', }}>
-                            If you wanna get in touch, talk to me about employment, a project collaboration or just say "hi",
-                            fill out a form, use my phone number, email me, add me on LinkdIn. Please take advantage of my many paths of
-                            communication. ~let's talk
-                        </p>
-                    </Cell>
-                    <Cell col={8}>
-                        <h2>
-                            Contact Me
-                            </h2>
-                        <hr />
-                        <List style={{ width: '75%', margin: 'auto' }}>
-                            <ListItem>
-                                <a href="tel:123-456-7890" title="(503) 504-7581">
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
-                                        <i className="fa fa-phone-square" aria-hidden="true" />
-                                        {"  "}(503) 504-7581
-                                    </ListItemContent>
-                                </a>
-                            </ListItem>
-                            <ListItem>
-                                <a href="mailto: nathanieljryan1994@gmail.com"
-                                    title="nathanieljryan1994@gmail.com">
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
-                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                        {"  "}Email
-                                    </ListItemContent>
-                                </a>
-                            </ListItem>
-                            <ListItem>
-                                <a href="https://www.linkedin.com/in/nathaniel-ryan-88871817b"
-                                    title="LinkedIn Nathaniel Ryan"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
-                                        <i class="fa fa-linkedin"></i>
-                                        {"  "}LinkedIn
-                                    </ListItemContent>
-                                </a>
-                            </ListItem>
-                            <ListItem>
-                                <a href="https://github.com/VolksRat71"
-                                    title="Github VolksRat71"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
-                                    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: "black" }}>
-                                        <i class="fa fa-github" aria-hidden="true" />
-                                        {"  "}Github
-                                    </ListItemContent>
-                                </a>
-                            </ListItem>
-                        </List>
                     </Cell>
                 </Grid>
-            </div >
+            </div>
+
         )
     }
 }

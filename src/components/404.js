@@ -9,6 +9,7 @@ const FourOhFour = ({ location }) => (
         <img
             src={neil}
             style={{ borderRadius: 15 }}
+            alt="neil"
         />
     </div >
 )
