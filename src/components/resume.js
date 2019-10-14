@@ -7,7 +7,6 @@ import {
 
 import resume from '../assets/site_helper/resume.JPG';
 
-
 class Resume extends Component {
     render() {
         return (
@@ -133,7 +132,7 @@ class Resume extends Component {
                         <div className="actionIcons">
                             <Grid>
                                 <Cell col={6}>
-                                    <a className="print" href={resume} print>
+                                    <a className="print" onclick="printJS('../src/assets/site_helper/resume.JPG')">
                                         <i class="fa fa-print"></i>
                                     </a>
                                 </Cell>

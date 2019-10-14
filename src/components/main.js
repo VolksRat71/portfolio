@@ -9,6 +9,7 @@ import AboutMe from './aboutme';
 import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
+import Print from './print';
 import FourOhFour from './404';
 
 const Main = () => (
@@ -18,6 +19,7 @@ const Main = () => (
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
+        <Route path="/print" component={Print} />
         <Route component={FourOhFour} />
     </Switch>
 )
