@@ -26,8 +26,8 @@ class Contact extends Component {
                                 Contact Me
                                 <hr />
                                 <p className="lets_talk">
-                                    If you wanna get in touch, talk to me about employment, a project collaboration or just say "hi",
-                                    fill out a form, use my phone number, email me, add me on LinkdIn. Please take advantage of my many paths of
+                                    If you wanna get in touch, talk to me about employment, internships, a project collaboration or just say "hi",
+                                     use my phone number, email me, add me on LinkdIn; take advantage of my many paths of
                                     communication. ~let's talk
                                 </p>
                                 <div className="link-list">

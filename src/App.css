@@ -113,7 +113,7 @@
 .projectCard {
     transition: transform .2s;
     animation-name: reset, fade-in;
-    animation-duration: .3s;
+    animation-duration: .4s;
     animation-timing-function: ease-in;
 }
 
@@ -158,11 +158,10 @@
 
 .contact-grid p {
     font-family: 'Oxygen', sans-serif;
-    font-weight: bold
 }
 
 .contact-grid hr {
-    border-top: 5px dotted #000;
+    border-top: 5px dotted #fff;
     width: 50%;
     margin: auto;
 }
@@ -186,15 +185,6 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-bottom: 15px;
     flex-wrap: wrap;
-}
-
-.resume-header {
-    background: #000000;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .aboutMe-header {
@@ -259,6 +249,49 @@
 }
 
 /* Resume CSS */
+.actionIcons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2%;
+    animation-name: reset, fade-in;
+    animation-duration: .6s;
+    animation-timing-function: ease-in;
+}
+
+.download,
+.print {
+    color: #fff;
+    font-size: 50px;
+    transition: .2s;
+}
+
+.download:hover,
+.print:hover {
+    color: rgb(129, 213, 241)
+}
+
+@media only screen and (max-width: 1240px) {
+    .print {
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .download {
+        color: #000;
+    }
+}
+
+.resume-header {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .resume {
     border: 0;
     font: inherit;
@@ -475,12 +508,6 @@ section:last-child {
     }
 }
 
-@media print {
-    .cv {
-        width: 100%;
-    }
-}
-
 @-webkit-keyframes reset {
     0% {
         opacity: 0;
@@ -639,20 +666,31 @@ section:last-child {
 .contact-container {
     background-color: rgba(0, 0, 0, 0.6);
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 10px;
     animation-name: reset, fade-in;
     animation-duration: .6s;
     animation-timing-function: ease-in;
-    margin-top: 0;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.contact-container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
 }
 
 .lets_talk {
+    font-size: 17px;
     padding: 5px;
-    width: 50%;
+    width: 65%;
     display: block;
     margin: 0 auto;
-    margin-top: 0;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
 .contact-avatar {
@@ -664,7 +702,8 @@ section:last-child {
     animation-name: reset, fade-in;
     animation-duration: .3s;
     animation-timing-function: ease-in;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .link-list {

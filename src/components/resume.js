@@ -5,6 +5,8 @@ import {
     Cell
 } from 'react-mdl';
 
+import resume from '../assets/site_helper/resume.JPG';
+
 
 class Resume extends Component {
     render() {
@@ -18,7 +20,7 @@ class Resume extends Component {
                                 <div className="mainDetails">
                                     <div className="name">
                                         <h1 className="quickFade delayTwo">Nathaniel J. Ryan</h1>
-                                        <h2 className="quickFade delayThree">Jr. Developer</h2>
+                                        <h2 className="quickFade delayThree">Full Stack JavaScript Developer</h2>
                                     </div>
 
                                     <div className="contactDetails quickFade delayFour">
@@ -120,8 +122,23 @@ class Resume extends Component {
                                 </div>
                             </div>
                         </Cell>
+                        <div className="actionIcons">
+                            <Grid>
+                                <Cell col={6}>
+                                    <a className="print" href={resume} print>
+                                        <i class="fa fa-print"></i>
+                                    </a>
+                                </Cell>
+                                <Cell col={6}>
+                                    <a className="download" href={resume} download>
+                                        <i class="fa fa-download"></i>
+                                    </a>
+                                </Cell>
+                            </Grid>
+                        </div>
                     </Grid>
                 </div>
+
             </div>
         )
     }
