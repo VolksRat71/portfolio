@@ -268,7 +268,7 @@
 
 .download:hover,
 .print:hover {
-    color: rgb(129, 213, 241)
+    color: #81d5f1
 }
 
 @media only screen and (max-width: 1240px) {
@@ -373,7 +373,7 @@ a[href^=tel] {
     -moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
     -ms-transition: all .3s ease-in;
-    transition: all .3s ease-in;
+    transition: .3s;
 }
 
 .contactDetails ul li a:hover {
@@ -396,12 +396,12 @@ section:last-child {
 
 .sectionTitle {
     float: left;
-    width: 25%;
+    width: 15%;
 }
 
 .sectionContent {
     float: right;
-    width: 72.5%;
+    width: 80%;
 }
 
 .sectionTitle h1 {
@@ -413,7 +413,7 @@ section:last-child {
 
 .sectionContent h2 {
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 24px;
     margin-bottom: -2px;
 }
 

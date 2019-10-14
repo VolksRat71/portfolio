@@ -16,6 +16,9 @@ import rdtrpzIMG from '../assets/projects/RoadTripperZzz/roadtriperzzz.png';
 import ocpygifIMG from '../assets/projects/Occupy_Gif/occupy.jpg';
 import triviaIMG from '../assets/projects/Trivia_Game/trivia.JPG';
 import trainIMG from '../assets/projects/Train_Scheduler/train.JPG';
+import bamazon from '../assets/projects/bamazon/bamazon.JPG';
+import liri from '../assets/projects/LiriNode/liri.JPG';
+import wordGuess from '../assets/projects/wordguess/wordguess.JPG';
 
 
 class Projects extends React.Component {
@@ -42,8 +45,46 @@ class Projects extends React.Component {
             // Backend Tab
         } else if (this.state.activeTab === 2) {
             return (
-                <div>
-                    <p>BackEnd</p>
+                <div className="projects-flexWrap">
+                    {/* bamazon */}
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${bamazon}) center / cover` }}>Bamazon</CardTitle>
+                        <CardText>
+                            This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
+                        </CardText>
+                        <CardActions border>
+                            <Button
+                                href="https://github.com/VolksRat71/bamazon"
+                                target="_blank"
+                                colored ripple>Github</Button>
+                        </CardActions>
+                    </Card>
+                    {/* Liri */}
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${liri}) center / cover` }}>Liri</CardTitle>
+                        <CardText>
+                            A simple frontend application that was inteded to learn request and responses to an API, I decided to take a little step further and flex a little frontend User Experience because I had some freetime that week. When images are clicked on, you can pause and play the GIFs.
+                        </CardText>
+                        <CardActions border>
+                            <Button
+                                href="https://github.com/VolksRat71/liriNode"
+                                target="_blank"
+                                colored ripple>Github</Button>
+                        </CardActions>
+                    </Card>
+                    {/* Word Guess */}
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${wordGuess}) center / cover` }}>Word Guess</CardTitle>
+                        <CardText>
+                            A mostly frontend application that communicates with a Google Firebase Database. Feel free to add your own trains to the schedule, I will keep an eye on the database for any changes!
+                        </CardText>
+                        <CardActions border>
+                            <Button
+                                href="https://github.com/VolksRat71/constructorWordGuess"
+                                target="_blank"
+                                colored ripple>Github</Button>
+                        </CardActions>
+                    </Card>
                 </div>
             )
             // Frontend Tab
@@ -102,6 +143,22 @@ class Projects extends React.Component {
                         </CardActions>
                     </Card>
                     {/* Car Trivia */}
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${triviaIMG}) center / cover` }}>Car Trivia</CardTitle>
+                        <CardText>
+                            Written with mostly jQuery logic, this was my first attempt at using timers and populating out of arrays. Also if you feel up to the challange; give it a try and test your car knowledge.
+                        </CardText>
+                        <CardActions border>
+                            <Button
+                                href="https://volksrat71.github.io/triviaGame/"
+                                target="_blank"
+                                colored ripple>Website</Button>
+                            <Button
+                                href="https://github.com/VolksRat71/triviaGame"
+                                target="_blank"
+                                colored ripple>Github</Button>
+                        </CardActions>
+                    </Card>
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${triviaIMG}) center / cover` }}>Car Trivia</CardTitle>
                         <CardText>

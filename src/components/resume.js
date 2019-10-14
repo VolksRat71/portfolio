@@ -56,20 +56,35 @@ class Resume extends Component {
                                         <div className="sectionContent">
                                             <article>
                                                 <h2>Drone Controller</h2>
-                                                <p className="subDetails">ReactJS, NodeJS</p>
-                                                <p>Retro coloring book mustache semiotics street art typewriter XOXO kinfolk artisan. Banjo glossier edison bulb retro raclette YOLO. Meditation letterpress bushwick, humblebrag knausgaard shoreditch irony prism post-ironic migas lumbersexual roof party chambray. </p>
+                                                <p className="subDetails">React.JS, Node.JS</p>
+                                                <p>This is an application developed with a React.JS frontend, Node.js backend; that allows control of a DJI Tello drone with a browser. I was the sole deigner on this project.</p>
+                                                <ul>
+                                                    <li>Read documentation included with Drone tp resolve communications from Node.JS to drones I.P adress & Node.JS</li>
+                                                    <li>Resolve Drone state (Pitch, Roll, Yaw, Battery, etc.) steams to backend and format to render 3D animation in browser along with battery status, height, and more.</li>
+                                                    <li>Self starter, as an independant project I prepared this as a full presentation for University of Oregon's Demo Day</li>
+                                                </ul>
                                             </article>
 
                                             <article>
                                                 <h2>Emit Mobile App</h2>
                                                 <p className="subDetails">React Native, Firebase</p>
-                                                <p>Kickstarter gastropub stumptown. Photo booth blue bottle listicle irony, subway tile normcore kickstarter. Keffiyeh tumblr offal raclette, helvetica retro coloring book mustache juice gochujang irony cray.</p>
+                                                <p>This was a mobile application developed with React Native that allows a user to enter chatrooms based upon a sport topic. My role in this project was Data Storage, User Authentication, Test Environment Specialist, User Experience & Project Manager.</p>
+                                                <ul>
+                                                    <li>Instuct a group of 5 of their roles in the project, determine deadlines, help contributors with general questions</li>
+                                                    <li>Study & exicute a foregin framework in 3 weeks to a functional application</li>
+                                                    <li>Learn how to store data & create authentication procedures</li>
+                                                </ul>
                                             </article>
 
                                             <article>
-                                                <h2>Seller2Sellar</h2>
+                                                <h2>Seller2Cellar</h2>
                                                 <p className="subDetails">NodeJS, MySQL, Handlebars</p>
-                                                <p>Viral shoreditch roof party cold-pressed chartreuse tofu pug jianbing. Man braid scenester seitan venmo craft beer occupy 90's tbh. Swag mustache franzen hashtag helvetica.</p>
+                                                <p>This was a eCommerce/Social Media hybrid for users to buy and sell wine and update other users with a "status" for wines added to your collection, vinyards visited, etc. My role in this project was Frontend, User Experience. </p>
+                                                <ul>
+                                                    <li>Work with bootstrap framework to create a social media-esk User Experience</li>
+                                                    <li>Motivate other group memebers and work with them to assign tasks according to their skillset</li>
+                                                    <li>Create a almost fully functional application in a short 2 week span</li>
+                                                </ul>
                                             </article>
                                         </div>
                                         <div className="clear"></div>
@@ -107,14 +122,7 @@ class Resume extends Component {
                                         <div className="sectionContent">
                                             <article>
                                                 <h2>University of Oregon</h2>
-                                                <p className="subDetails">Full Stack Web Development</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-                                            </article>
-
-                                            <article>
-                                                <h2>Westwood High School</h2>
-                                                <p className="subDetails">General Studies</p>
-                                                <p>Graduated in 2012</p>
+                                                <p className="subDetails">Full Stack JavaScript Development</p>
                                             </article>
                                         </div>
                                         <div className="clear"></div>
