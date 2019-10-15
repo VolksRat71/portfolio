@@ -21,7 +21,6 @@ class Resume extends Component {
                                         <h1 className="quickFade delayTwo">Nathaniel J. Ryan</h1>
                                         <h2 className="quickFade delayThree">Full Stack JavaScript Developer</h2>
                                     </div>
-
                                     <div className="contactDetails quickFade delayFour">
                                         <ul>
                                             <li>e: <a href="mailto:joe@bloggs.com" target="_blank" rel="noopener noreferrer">nathanieljryan1994@gmail.com</a></li>
@@ -40,6 +39,7 @@ class Resume extends Component {
                                             </div>
 
                                             <div className="sectionContent">
+                                                <br></br>
                                                 <p>To find entry level development employment or internships with a progressive company, in order to gain valuable skills and experience for career and personal growth.</p>
                                             </div>
                                         </article>
@@ -63,7 +63,6 @@ class Resume extends Component {
                                                     <li>An independent project I prepared as a full presentation for University of Oregon's Demo Day</li>
                                                 </ul>
                                             </article>
-
                                             <article>
                                                 <h2>Emit Mobile App</h2>
                                                 <p className="subDetails">React Native, Firebase</p>
@@ -94,7 +93,6 @@ class Resume extends Component {
                                         <div className="sectionTitle">
                                             <h1>Key Skills</h1>
                                         </div>
-
                                         <div className="sectionContent">
                                             <ul className="keySkills">
                                                 <li>HTML5</li>
@@ -132,12 +130,12 @@ class Resume extends Component {
                         <div className="actionIcons">
                             <Grid>
                                 <Cell col={6}>
-                                    <a className="print" href={resume}>
+                                    <a className="print" href="static/media/resume.306fffde.JPG" title="Route to Printable">
                                         <i class="fa fa-print"></i>
                                     </a>
                                 </Cell>
                                 <Cell col={6}>
-                                    <a className="download" href={resume} download>
+                                    <a className="download" href={resume} title="Download" download>
                                         <i class="fa fa-download"></i>
                                     </a>
                                 </Cell>
