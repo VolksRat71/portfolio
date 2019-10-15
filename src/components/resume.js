@@ -23,9 +23,9 @@ class Resume extends Component {
                                     </div>
                                     <div className="contactDetails quickFade delayFour">
                                         <ul>
-                                            <li>e: <a href="mailto:joe@bloggs.com" target="_blank" rel="noopener noreferrer">nathanieljryan1994@gmail.com</a></li>
+                                            <li>e: <a href="mailto:nathanieljryan1994@gmail.com" target="_blank" rel="noopener noreferrer">nathanieljryan1994@gmail.com</a></li>
                                             <li>w: <a href="http://localhost:3000/resume">www.nathanielryan.com</a></li>
-                                            <li>m: <a href="tel:123-456-7890"> (503) 504-7581</a></li>
+                                            <li>m: <a href="tel:503-504-7581"> (503) 504-7581</a></li>
                                         </ul>
                                     </div>
                                     <div className="clear"></div>

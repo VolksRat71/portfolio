@@ -113,7 +113,7 @@
 .projectCard {
     transition: transform .2s;
     animation-name: reset, fade-in;
-    animation-duration: .4s;
+    animation-duration: .6s;
     animation-timing-function: ease-in;
 }
 
@@ -277,7 +277,7 @@
     }
 }
 
-@media only screen and (max-width: 855px) {
+@media only screen and (max-width: 857px) {
     .download {
         color: #000;
     }
@@ -663,6 +663,7 @@ section:last-child {
 .contact-grid {
     background: #00F0D9;
     width: 100%;
+    height: 100%;
 }
 
 .contact-container {
@@ -708,20 +709,37 @@ section:last-child {
     padding-bottom: 0 !important;
 }
 
-.link-list {
-    display: block;
-    margin: 0 auto;
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    transition: transform .2s;
 }
 
-.list_item {
-    text-decoration: none;
+.contact-links i {
+    color: white;
+    font-size: 1em;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: transform .2s;
+}
+
+.contact-links a {
+    transition: transform .2s;
+    text-decoration: none !important;
+}
+
+.contact-links a:hover {
+    transform: scale(1.4);
+}
+
+.contact-links a:active {
+    transform: scale(.8);
+}
+
+.contact-links p {
     color: #fff;
-    animation-name: reset, fade-in;
-    animation-duration: .6s;
-    animation-timing-function: ease-in;
-    transition: .2s;
-}
-
-.list_item:hover {
-    transform: scale(1.03);
+    text-decoration: none;
 }

@@ -8,11 +8,13 @@ class LandingPage extends Component {
             <div style={{ width: '100%', margin: 'auto', height: '100%' }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img
-                            src={img}
-                            alt="landing avatar"
-                            className="landing-avatar"
-                        />
+                        <a href='/resume'>
+                            <img
+                                src={img}
+                                alt="landing avatar"
+                                className="landing-avatar"
+                            />
+                        </a>
                         <div className="banner-text">
                             <h1>
                                 Full Stack JavaScript Developer
@@ -48,7 +50,7 @@ class LandingPage extends Component {
                         </div>
                     </Cell>
                 </Grid>
-            </div>
+            </div >
         )
     }
 }

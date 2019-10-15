@@ -12,21 +12,21 @@ import {
 } from 'react-mdl';
 
 // Image Imports
-import rdtrpzIMG from '../assets/projects/RoadTripperZzz/roadtriperzzz.png';
-import ocpygifIMG from '../assets/projects/Occupy_Gif/occupy.jpg';
-import triviaIMG from '../assets/projects/Trivia_Game/trivia.JPG';
-import trainIMG from '../assets/projects/Train_Scheduler/train.JPG';
-import bamazon from '../assets/projects/bamazon/bamazon.JPG';
-import liri from '../assets/projects/LiriNode/liri.JPG';
-import wordGuess from '../assets/projects/wordguess/wordguess.jpg';
-import c2s from '../assets/projects/Seller2Cellar/s2c.png';
-import friend from '../assets/projects/friend_finder/friend_finder.JPG'; 
-import clicky from '../assets/projects/clicky_game/clicky.JPG';
-import drone from '../assets/projects/Drone_Controller/tello_UI.JPG';
-import port from '../assets/projects/portfolio/portfolio.jpg';
-import emit from '../assets/projects/Emit/splash.png';
-import guess from '../assets/projects/numberGuess/editoutcurse.jpg';
 import todo from '../assets/projects/todo/2.JPG';
+import guess from '../assets/projects/numberGuess/editoutcurse.jpg';
+import emit from '../assets/projects/Emit/splash.png';
+import port from '../assets/projects/portfolio/portfolio.jpg';
+import drone from '../assets/projects/Drone_Controller/tello_UI.JPG';
+import clicky from '../assets/projects/clicky_game/clicky.JPG';
+import friend from '../assets/projects/friend_finder/friend_finder.JPG'; 
+import c2s from '../assets/projects/Seller2Cellar/s2c.png';
+import wordGuess from '../assets/projects/wordguess/wordguess.jpg';
+import liri from '../assets/projects/LiriNode/liri.JPG';
+import bamazon from '../assets/projects/bamazon/bamazon.JPG';
+import trainIMG from '../assets/projects/Train_Scheduler/train.JPG';
+import triviaIMG from '../assets/projects/Trivia_Game/trivia.JPG';
+import ocpygifIMG from '../assets/projects/Occupy_Gif/occupy.jpg';
+import rdtrpzIMG from '../assets/projects/RoadTripperZzz/roadtriperzzz.png';
 
 class Projects extends React.Component {
     constructor(props) {
@@ -39,7 +39,7 @@ class Projects extends React.Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="projects-flexWrap">
-                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${emit}) center / cover` }}>Emit</CardTitle>
                         <CardText>
                             This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
@@ -55,7 +55,7 @@ class Projects extends React.Component {
                                 colored ripple>Github</Button>
                         </CardActions>
                     </Card>
-                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${guess}) center / cover` }}>Number Guess</CardTitle>
                         <CardText>
                             This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
@@ -71,7 +71,7 @@ class Projects extends React.Component {
                                 colored ripple>Github</Button>
                         </CardActions>
                     </Card>
-                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${todo}) center / cover` }}>To Do</CardTitle>
                         <CardText>
                             This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
@@ -93,7 +93,7 @@ class Projects extends React.Component {
         } else if (this.state.activeTab === 1) {
             return (
                 <div className="projects-flexWrap">
-                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${clicky}) center / cover` }}>Clicky Game</CardTitle>
                         <CardText>
                             This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
@@ -109,7 +109,7 @@ class Projects extends React.Component {
                                 colored ripple>Github</Button>
                         </CardActions>
                     </Card>
-                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${drone}) center / cover` }}>Drone Controller</CardTitle>
                         <CardText>
                             This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
@@ -148,7 +148,7 @@ class Projects extends React.Component {
             // Seller2Celler
             return (
             <div className="projects-flexWrap">
-                   <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
+                    <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${c2s}) center / cover` }}>Seller2Celler</CardTitle>
                         <CardText>
                             This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*

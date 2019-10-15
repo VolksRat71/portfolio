@@ -27,33 +27,34 @@ class Contact extends Component {
                                 <hr />
                                 <p className="lets_talk">
                                     If you wanna get in touch, talk to me about employment, internships, a project collaboration or just say "hi",
-                                     use my phone number, email me, add me on LinkdIn; take advantage of my many paths of
+                                    use my phone number, email me, add me on LinkdIn or GitHub; take advantage of my many paths of
                                     communication. ~let's talk
                                 </p>
-                                <div className="link-list">
-                                    <List>
-                                        <ListItem>
-                                            <ListItemAction>
-                                                <a href="/contact" className="list_item">
-                                                    <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-                                                </a>
-                                            </ListItemAction>
-                                        </ListItem>
-                                        <ListItem>
-                                            <ListItemAction>
-                                                <a href="/contact" className="list_item">
-                                                    <ListItemContent icon="person">Aaron Paul</ListItemContent>
-                                                </a>
-                                            </ListItemAction>
-                                        </ListItem>
-                                        <ListItem>
-                                            <ListItemAction>
-                                                <a href="/contact" className="list_item">
-                                                    <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-                                                </a>
-                                            </ListItemAction>
-                                        </ListItem>
-                                    </List>
+                                <div className="contact-links">
+                                    <a href="tel:503-504-7581"
+                                        title="nathanieljryan1994@gmail.com">
+                                        <i class="fa fa-phone"></i>
+                                        <p>(503) 504-7581</p>
+                                    </a>
+                                    <a href="mailto: nathanieljryan1994@gmail.com"
+                                        title="nathanieljryan1994@gmail.com">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <p>nathanieljryan1994@gmail.com</p>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/nathaniel-ryan-88871817b"
+                                        title="LinkedIn Nathaniel Ryan"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="fa fa-linkedin" aria-hidden="true" />
+                                        <p>LinkdIn</p>
+                                    </a>
+                                    <a href="https://github.com/VolksRat71"
+                                        title="Github VolksRat71"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        <i class="fa fa-github" aria-hidden="true" />
+                                        <p>GitHub</p>
+                                    </a>
                                 </div>
                             </h1>
                         </div>
