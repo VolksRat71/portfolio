@@ -389,7 +389,7 @@ section:last-child {
     margin-bottom: 3px;
 }
 
-@media all and (min-width: 865px) {
+@media all and (max-width: 865px) {
     .keySkills {
         -moz-column-count: 2;
         -webkit-column-count: 2;
@@ -598,6 +598,24 @@ section:last-child {
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
+}
+
+.contactMe {
+    height: 100%;
+}
+
+/* ONLY A PATCH FOR NOW */
+@media only screen and (max-width: 1580px) {
+    .contactMe {
+        height: 130%;
+    }
+}
+
+/* ONLY A PATCH FOR NOW */
+@media only screen and (max-width: 854px) {
+    .contactMe {
+        height: 190%;
+    }
 }
 
 .contact-grid {

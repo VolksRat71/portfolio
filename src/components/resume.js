@@ -32,20 +32,6 @@ class Resume extends Component {
                                 </div>
 
                                 <div className="mainArea quickFade delayFive">
-                                    <section>
-                                        <article>
-                                            <div className="sectionTitle">
-                                                <h1>Personal Objective</h1>
-                                            </div>
-
-                                            <div className="sectionContent">
-                                                <br></br>
-                                                <p>To find entry level development employment or internships with a progressive company, in order to gain valuable skills and experience for career and personal growth.</p>
-                                            </div>
-                                        </article>
-                                        <div className="clear"></div>
-                                    </section>
-
 
                                     <section>
                                         <div className="sectionTitle">
@@ -54,34 +40,34 @@ class Resume extends Component {
 
                                         <div className="sectionContent">
                                             <article>
-                                                <h2>Drone Controller</h2>
-                                                <p className="subDetails">React.JS, Node.JS</p>
-                                                <p>An application developed with a React.JS frontend, and Node.js backend, that allows control of a DJI Tello drone with a browser. I was sole designer on this project.</p>
+                                                <h2>React/Node.js Developer</h2>
+                                                <p className="subDetails">React, Node.js, Express</p>
+                                                <p>Sole Designer, application developed with React frontend, and Node.js backend, that allows control of a DJI Tello drone via the browser.</p>
                                                 <ul>
-                                                    <li>Read documentation included with Drone to resolve communications from Node.JS to drone's I.P address & Node.JS</li>
-                                                    <li>Resolve Drone state (Pitch, Roll, Yaw, Battery, etc.) which streams to backend, and is formatted to render 3D animation in browser along with battery status, height, and more</li>
-                                                    <li>An independent project I prepared as a full presentation for University of Oregon's Demo Day</li>
+                                                    <li>Created communications from Node.js to drone's I.P address & Node.JS via dgram node package using UDP protocol</li>
+                                                    <li>Achieved 3D rendering by formatting a string streamed from drone called "Drone State", the string is formatted & sent to the browser to display Pitch, Yaw, Roll, etc.</li>
+                                                    <li>An independent project prepared as a presentation for University of Oregon's Demo Day</li>
                                                 </ul>
                                             </article>
                                             <article>
-                                                <h2>Emit Mobile App</h2>
+                                                <h2>React Native Developer</h2>
                                                 <p className="subDetails">React Native, Firebase</p>
-                                                <p>A mobile application developed with React Native that allows a user to enter chatrooms based upon a sport topic. My role in this project was Data Storage, User Authentication, Test Environment Specialist, User Experience & Project Manager.</p>
+                                                <p>My role in this project was Data Storage, User Authentication, Test Environment Specialist, User Experience & Project Manager. A mobile application developed with React Native that allows a user to enter chatrooms based upon a sport topic.</p>
                                                 <ul>
-                                                    <li>Lead a group of 5, delegate roles in the project, determine deadlines, help contributors with general questions</li>
-                                                    <li>Study & properly execute a foreign framework in 3 weeks</li>
-                                                    <li>Learn how to store data within the browser & create authentication procedures</li>
+                                                    <li>Led a group of 5 application developers, delegated roles in the project, determined deadlines, helped contributors with general questions</li>
+                                                    <li>Studied & properly executed a foreign framework in 3 weeks</li>
+                                                    <li>Demonstration was prepared as a presentation for University of Oregon's Demo Day</li>
                                                 </ul>
                                             </article>
 
                                             <article>
-                                                <h2>Seller2Cellar</h2>
-                                                <p className="subDetails">NodeJS, MySQL, Handlebars</p>
-                                                <p>A Social Media/eCommerce hybrid for users to buy and sell wine, update other users with a "status" for wines added to their collection, vinyards visited, etc. My role in this project was Frontend, User Experience. </p>
+                                                <h2>Frontend/User Experience Developer</h2>
+                                                <p className="subDetails">Node.js, MySQL, Handlebars, Express</p>
+                                                <p>My role in this project was Frontend and User Experience. A Social Media/eCommerce hybrid for users to buy and sell wine, update other users with a "status" for wines added to their collection, vinyards visited, etc.</p>
                                                 <ul>
-                                                    <li>Work with bootstrap framework to create a social themed User Experience</li>
-                                                    <li>Motivate other group members and work with them to assign tasks according to their skillset</li>
-                                                    <li>Create a mostly fully functional application in a short 2 week span</li>
+                                                    <li>Worked with bootstrap framework to create a social media themed User Experience</li>
+                                                    <li>Motivated other group members and worked with them to assign tasks according to their skillset</li>
+                                                    <li>Created a mostly fully functional application within a 2 week span</li>
                                                 </ul>
                                             </article>
                                         </div>
@@ -98,9 +84,9 @@ class Resume extends Component {
                                                 <li>HTML5</li>
                                                 <li>CSS3</li>
                                                 <li>JavaScript</li>
-                                                <li>ReactJS</li>
+                                                <li>React</li>
                                                 <li>React Native</li>
-                                                <li>NodeJS</li>
+                                                <li>Node.js</li>
                                                 <li>Express</li>
                                                 <li>MongoDB</li>
                                                 <li>MySQL</li>

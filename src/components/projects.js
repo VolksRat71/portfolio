@@ -117,7 +117,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${drone}) center / cover` }}>Drone Controller</CardTitle>
                         <CardText>
-                            This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
+                            A Full stack application featuring Node.JS, React.JS and a DJI Tello drone. You can control
                         </CardText>
                         <CardActions border>
                             <Button
@@ -134,7 +134,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${port}) center / cover` }}>Portfolio</CardTitle>
                         <CardText>
-                            This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
+                            The Website you are on right now was written with React.JS, there is a ton of functions and features I learned while creating this!
                         </CardText>
                         <CardActions border>
                             <Button
@@ -157,11 +157,11 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${c2s}) center / cover` }}>Seller2Celler</CardTitle>
                         <CardText>
-                            This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
+                            This was a project witha group of 5 inlucing myself. A full stack app allowing the user to catalog their wine collection and buy/sell with other users. I was in charge of Frontend and User experience.
                         </CardText>
                         <CardActions border>
                             <Button
-                                href="https://volksrat71.github.io/project-1/project-1/index.html"
+                                href="https://glacial-plains-59439.herokuapp.com"
                                 target="_blank"
                                 colored ripple>Website</Button>
                             <Button
@@ -174,15 +174,15 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${friend}) center / cover` }}>Friend Finder</CardTitle>
                         <CardText>
-                            This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
+                            This app is a fullstack application, made it with a theme from the show "The Office", it compares personality trates to charactors in "The Office" to find you a friend with common traits.
                         </CardText>
                         <CardActions border>
                             <Button
-                                href="https://volksrat71.github.io/project-1/project-1/index.html"
+                                href="https://fierce-bastion-39629.herokuapp.com/"
                                 target="_blank"
                                 colored ripple>Website</Button>
                             <Button
-                                href="https://github.com/VolksRat71/project-1"
+                                href="https://github.com/VolksRat71/friend_finder"
                                 target="_blank"
                                 colored ripple>Github</Button>
                         </CardActions>
@@ -197,7 +197,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${bamazon}) center / cover` }}>Bamazon</CardTitle>
                         <CardText>
-                            This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
+                            Written with Node.JS this application is designed to keep track of an inventory database written in mySQL. You can use it as either a "customer" or a "manager", the README includes how to use each version.
                         </CardText>
                         <CardActions border>
                             <Button
@@ -210,7 +210,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${liri}) center / cover` }}>Liri</CardTitle>
                         <CardText>
-                            A simple frontend application that was inteded to learn request and responses to an API, I decided to take a little step further and flex a little frontend User Experience because I had some freetime that week. When images are clicked on, you can pause and play the GIFs.
+                            Written with Node.JS this application sends request to 3 different API's that are determined by user input in a CLI (example: node liri concert-this NOFX), upon API response, it will be formatted and displayed in CLI.
                         </CardText>
                         <CardActions border>
                             <Button
@@ -223,7 +223,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${wordGuess}) center / cover` }}>Word Guess</CardTitle>
                         <CardText>
-                            A mostly frontend application that communicates with a Google Firebase Database. Feel free to add your own trains to the schedule, I will keep an eye on the database for any changes!
+                            Written with Node.JS this application compares user input keys and compares them to letters out of a iconic car name. Each correct letters guess will be reivled to user.
                         </CardText>
                         <CardActions border>
                             <Button
@@ -242,7 +242,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${rdtrpzIMG}) center / cover` }}>RoadtripperZzz</CardTitle>
                         <CardText>
-                            This application was built with a group of 5 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
+                            This application was built with a group of 4 including myself. It was intedend to help th indecisive traveler with a destination within the Pacific Northwest area. My Primary duties were layout and general front-end User Experience. I also built in a obvious easter egg, I hope you enjoy. *Make sure your volume is up*
                         </CardText>
                         <CardActions border>
                             <Button
@@ -259,7 +259,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${ocpygifIMG}) center / cover` }}>Occupy GIF</CardTitle>
                         <CardText>
-                            A simple frontend application that was inteded to learn request and responses to an API, I decided to take a little step further and flex a little frontend User Experience because I had some freetime that week. When images are clicked on, you can pause and play the GIFs.
+                            A simple frontend application that was inteded to learn request and responses to an API, I decided to take a little step further and flex a little frontend User Experience.
                         </CardText>
                         <CardActions border>
                             <Button
