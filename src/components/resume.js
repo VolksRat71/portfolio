@@ -5,7 +5,7 @@ import {
     Cell
 } from 'react-mdl';
 
-import resume from '../assets/site_helper/Resume.png';
+import resume from '../assets/site_helper/Resume.pdf';
 
 class Resume extends Component {
     render() {
