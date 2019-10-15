@@ -9,7 +9,7 @@ import img from '../assets/site_helper/contact-me.gif';
 class Contact extends Component {
     render() {
         return (
-            <div style={{ width: '100%', margin: 'auto', height: '100%' }}>
+            <div className="contactMe" style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="contact-grid">
                     <Cell col={12}>
                         <img
@@ -57,7 +57,6 @@ class Contact extends Component {
                     </Cell>
                 </Grid>
             </div>
-
         )
     }
 }

@@ -1,3 +1,4 @@
+/* NOTICE TO DELEVOPER, CSS is in the order of Navigation ctrl+ F (pagename + "page") */
 .viewport {
     display: flex;
     flex-direction: column;
@@ -94,97 +95,18 @@
     transform: scale(.9);
 }
 
-/* Projects Page */
-.tab-header {
-    background: #1D2B64;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F8CDDA, #1D2B64);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
 
-.projects-flexWrap {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.projectCard {
-    transition: transform .2s;
-    animation-name: reset, fade-in;
-    animation-duration: .6s;
-    animation-timing-function: ease-in;
-}
-
-.projectCard:hover {
-    transform: scale(1.03);
-}
-
-.projectCard:active {
-    transform: scale(.9);
-}
-
-.contact-header {
-    background: #aa4b6b;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.contact-body {
-    margin: auto;
-    position: fixed;
+/* About Me Page */
+.aboutMe {
     width: 100%;
-    height: 100%;
-    flex-wrap: wrap;
 }
 
-.contact-grid {
-    text-align: center;
-    justify-content: center;
-    width: 80%;
-    height: 100%;
-    color: #000;
-    margin-bottom: 20px;
-    margin-top: 115px;
-}
-
-.contact-grid h2 {
-    font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-    font-family: 'Oxygen', sans-serif;
-}
-
-.contact-grid hr {
-    border-top: 5px dotted #fff;
-    width: 50%;
-    margin: auto;
-}
-
-.contact-avatar {
-    height: 200px;
-    margin-top: 5em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.contact-avatar-bkground {
-    border-radius: 15px;
-    background: #aa4b6b;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-bottom: 15px;
-    flex-wrap: wrap;
+/* ONLY A PATCH FOR NOW */
+@media only screen and (max-width: 854px) {
+    .aboutMe {
+        width: 130%;
+    }
 }
 
 .aboutMe-header {
@@ -248,7 +170,38 @@
     transform: scale(1.01);
 }
 
-/* Resume CSS */
+/* Projects Page */
+.tab-header {
+    background: #1D2B64;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8CDDA, #1D2B64);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.projects-flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectCard {
+    transition: transform .2s;
+    animation-name: reset, fade-in;
+    animation-duration: .6s;
+    animation-timing-function: ease-in;
+}
+
+.projectCard:hover {
+    transform: scale(1.03);
+}
+
+.projectCard:active {
+    transform: scale(.9);
+}
+
+/* Resume Page */
 .actionIcons {
     position: fixed;
     bottom: 0;
@@ -364,7 +317,6 @@
     color: #444;
 }
 
-/* Details Fade */
 .contactDetails ul li a,
 a[href^=tel] {
     color: #444;
@@ -437,7 +389,6 @@ section:last-child {
     margin-bottom: 3px;
 }
 
-/* Resume Responsivness */
 @media all and (min-width: 865px) {
     .keySkills {
         -moz-column-count: 2;
@@ -582,7 +533,6 @@ section:last-child {
     }
 }
 
-/* Resume on render */
 .instaFade {
     -webkit-animation-name: reset, fade-in;
     -webkit-animation-duration: 1.5s;
@@ -641,24 +591,39 @@ section:last-child {
     animation-delay: 0, 2.5s;
 }
 
-.FourOhFour {
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-timing-function: ease-in;
+/* Contact Me Page */
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
 }
 
-.FourOhFour img {
-    width: 60%;
-    display: block;
-    margin: 0 auto;
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 115px;
 }
+
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted #fff;
+    width: 50%;
+    margin: auto;
+}
+
 
 .contact-grid {
     background: #00F0D9;
@@ -742,4 +707,24 @@ section:last-child {
 .contact-links p {
     color: #fff;
     text-decoration: none;
+}
+
+/* 404 Page */
+.FourOhFour {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+}
+
+.FourOhFour img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
 }

@@ -11,7 +11,7 @@ import meimg from '../assets/site_helper/example_photo.jpg';
 class About extends Component {
     render() {
         return (
-            <div>
+            <div className="aboutMe">
                 <Tabs className="aboutMe-header" />
                 <Grid>
                     <Cell col={6}>

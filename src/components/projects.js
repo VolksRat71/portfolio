@@ -39,6 +39,7 @@ class Projects extends React.Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="projects-flexWrap">
+                    {/* Emit */}
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${emit}) center / cover` }}>Emit</CardTitle>
                         <CardText>
@@ -55,6 +56,7 @@ class Projects extends React.Component {
                                 colored ripple>Github</Button>
                         </CardActions>
                     </Card>
+                    {/* Number Guess React Native */}
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${guess}) center / cover` }}>Number Guess</CardTitle>
                         <CardText>
@@ -71,6 +73,7 @@ class Projects extends React.Component {
                                 colored ripple>Github</Button>
                         </CardActions>
                     </Card>
+                    {/* To Do React Native */}
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${todo}) center / cover` }}>To Do</CardTitle>
                         <CardText>
@@ -93,6 +96,7 @@ class Projects extends React.Component {
         } else if (this.state.activeTab === 1) {
             return (
                 <div className="projects-flexWrap">
+                    {/* Clicky Game */}
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${clicky}) center / cover` }}>Clicky Game</CardTitle>
                         <CardText>
@@ -109,6 +113,7 @@ class Projects extends React.Component {
                                 colored ripple>Github</Button>
                         </CardActions>
                     </Card>
+                    {/* Drone Controller */}
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${drone}) center / cover` }}>Drone Controller</CardTitle>
                         <CardText>
@@ -125,6 +130,7 @@ class Projects extends React.Component {
                                 colored ripple>Github</Button>
                         </CardActions>
                     </Card>
+                    {/* Portfolio */}
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${port}) center / cover` }}>Portfolio</CardTitle>
                         <CardText>
@@ -145,9 +151,9 @@ class Projects extends React.Component {
             )
             // Full Stack Tab
         } else if (this.state.activeTab === 2) {
-            // Seller2Celler
             return (
                 <div className="projects-flexWrap">
+                    {/* Seller2Celler */}
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${c2s}) center / cover` }}>Seller2Celler</CardTitle>
                         <CardText>
