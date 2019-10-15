@@ -5,7 +5,7 @@ import {
     Cell
 } from 'react-mdl';
 
-import resume from '../assets/site_helper/resume.JPG';
+import resume from '../assets/site_helper/Resume.png';
 
 class Resume extends Component {
     render() {
@@ -130,7 +130,7 @@ class Resume extends Component {
                         <div className="actionIcons">
                             <Grid>
                                 <Cell col={6}>
-                                    <a className="print" href="static/media/resume.306fffde.JPG" title="Route to Printable">
+                                    <a className="print" href={resume} title="Route to Printable">
                                         <i class="fa fa-print"></i>
                                     </a>
                                 </Cell>

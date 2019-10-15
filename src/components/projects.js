@@ -13,7 +13,7 @@ import {
 
 // Image Imports
 import todo from '../assets/projects/todo/2.JPG';
-import guess from '../assets/projects/numberGuess/editoutcurse.jpg';
+import guess from '../assets/projects/numberGuess/word.png';
 import emit from '../assets/projects/Emit/splash.png';
 import port from '../assets/projects/portfolio/portfolio.jpg';
 import drone from '../assets/projects/Drone_Controller/tello_UI.JPG';

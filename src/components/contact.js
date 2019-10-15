@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import {
     Grid,
     Cell,
-    List,
-    ListItem,
-    ListItemContent,
-    ListItemAction,
 } from 'react-mdl';
 
 import img from '../assets/site_helper/contact-me.gif';
