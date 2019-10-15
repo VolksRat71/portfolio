@@ -12,21 +12,21 @@ import {
 } from 'react-mdl';
 
 // Image Imports
-import todo from '../assets/projects/todo/2.JPG';
-import guess from '../assets/projects/numberGuess/word.png';
-import emit from '../assets/projects/Emit/splash.png';
-import port from '../assets/projects/portfolio/portfolio.jpg';
-import drone from '../assets/projects/Drone_Controller/tello_UI.JPG';
-import clicky from '../assets/projects/clicky_game/clicky.JPG';
-import friend from '../assets/projects/friend_finder/friend_finder.JPG'; 
-import c2s from '../assets/projects/Seller2Cellar/s2c.png';
-import wordGuess from '../assets/projects/wordguess/wordguess.jpg';
-import liri from '../assets/projects/LiriNode/liri.JPG';
-import bamazon from '../assets/projects/bamazon/bamazon.JPG';
-import trainIMG from '../assets/projects/Train_Scheduler/train.JPG';
-import triviaIMG from '../assets/projects/Trivia_Game/trivia.JPG';
-import ocpygifIMG from '../assets/projects/Occupy_Gif/occupy.jpg';
-import rdtrpzIMG from '../assets/projects/RoadTripperZzz/roadtriperzzz.png';
+import todo from '../assets/projects/2.JPG';
+import guess from '../assets/projects/word.png';
+import emit from '../assets/projects/splash.png';
+import port from '../assets/projects/portfolio.jpg';
+import drone from '../assets/projects/tello_UI.JPG';
+import clicky from '../assets/projects/clicky.JPG';
+import friend from '../assets/projects/friend_finder.JPG';
+import c2s from '../assets/projects/s2c.png';
+import wordGuess from '../assets/projects/wordguess.jpg';
+import liri from '../assets/projects/liri.JPG';
+import bamazon from '../assets/projects/bamazon.JPG';
+import trainIMG from '../assets/projects/train.JPG';
+import triviaIMG from '../assets/projects/trivia.JPG';
+import ocpygifIMG from '../assets/projects/occupy.jpg';
+import rdtrpzIMG from '../assets/projects/roadtriperzzz.png';
 
 class Projects extends React.Component {
     constructor(props) {
@@ -147,7 +147,7 @@ class Projects extends React.Component {
         } else if (this.state.activeTab === 2) {
             // Seller2Celler
             return (
-            <div className="projects-flexWrap">
+                <div className="projects-flexWrap">
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${c2s}) center / cover` }}>Seller2Celler</CardTitle>
                         <CardText>
@@ -181,7 +181,7 @@ class Projects extends React.Component {
                                 colored ripple>Github</Button>
                         </CardActions>
                     </Card>
-            </div>
+                </div>
             )
             // Backend
         } else if (this.state.activeTab === 3) {

@@ -4,12 +4,12 @@ import {
     Route
 } from 'react-router-dom';
 
-import LandingPage from './landingpage';
-import AboutMe from './aboutme';
-import Contact from './contact';
-import Projects from './projects';
-import Resume from './resume';
-import Print from './print';
+import LandingPage from './LandingPage';
+import AboutMe from './Aboutme';
+import Contact from './Contact';
+import Projects from './Projects';
+import Resume from './Resume';
+import Print from './Print';
 import FourOhFour from './404';
 
 const Main = () => (

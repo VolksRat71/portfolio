@@ -130,7 +130,12 @@ class Resume extends Component {
                         <div className="actionIcons">
                             <Grid>
                                 <Cell col={6}>
-                                    <a className="print" href={resume} title="Route to Printable">
+                                    <a
+                                        className="print"
+                                        href={resume}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        title="Printable Page">
                                         <i class="fa fa-print"></i>
                                     </a>
                                 </Cell>
