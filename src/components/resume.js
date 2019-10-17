@@ -5,7 +5,7 @@ import {
     Cell
 } from 'react-mdl';
 
-import resume from '../assets/site_helper/Resume.pdf';
+import resume from '../assets/site_helper/resume.pdf';
 
 class Resume extends Component {
     render() {
@@ -42,9 +42,9 @@ class Resume extends Component {
                                             <article>
                                                 <h2>React/Node.js Developer</h2>
                                                 <p className="subDetails">React, Node.js, Express</p>
-                                                <p>Sole Designer, application developed with React frontend, and Node.js backend, that allows control of a DJI Tello drone via the browser.</p>
+                                                <p>Sole Designer, application developed with React frontend, & Node.js backend, that allows control of a DJI Tello drone via the browser.</p>
                                                 <ul>
-                                                    <li>Created communications from Node.js to drone's I.P address & Node.JS via dgram node package using UDP protocol</li>
+                                                    <li>Created communications between drone's I.P address & Node.js via dgram node package using UDP protocol</li>
                                                     <li>Achieved 3D rendering by formatting a string streamed from drone called "Drone State", the string is formatted & sent to the browser to display Pitch, Yaw, Roll, etc.</li>
                                                     <li>An independent project prepared as a presentation for University of Oregon's Demo Day</li>
                                                 </ul>
@@ -63,10 +63,10 @@ class Resume extends Component {
                                             <article>
                                                 <h2>Frontend/User Experience Developer</h2>
                                                 <p className="subDetails">Node.js, MySQL, Handlebars, Express</p>
-                                                <p>My role in this project was Frontend and User Experience. A Social Media/eCommerce hybrid for users to buy and sell wine, update other users with a "status" for wines added to their collection, vinyards visited, etc.</p>
+                                                <p>My role in this project was Frontend & User Experience. A Social Media/eCommerce hybrid for users to buy & sell wine, update other users with a "status" for wines added to their collection, vinyards visited, etc.</p>
                                                 <ul>
                                                     <li>Worked with bootstrap framework to create a social media themed User Experience</li>
-                                                    <li>Motivated other group members and worked with them to assign tasks according to their skillset</li>
+                                                    <li>Motivated other group members & worked with them to assign tasks according to their skillset</li>
                                                     <li>Created a mostly fully functional application within a 2 week span</li>
                                                 </ul>
                                             </article>
