@@ -105,7 +105,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#000', height: '176px', background: `url(${drone}) center / cover` }}>Drone Controller</CardTitle>
                         <CardText>
-                            Featuring React frontend, this application is a controller giving you control of a DJI Tello drone via web browser, but that was only at the surface. Eventually, I was able to build in some automation and stunts, I still have much more planned for this project. Keep an eye on its GitHub if you are interested! In this project, I learned data transfering, working with hardware, it honed my Node.js ablities, as well as building an independant project from an idea to a presentation. By far, on of my favorite projects.
+                            Featuring React frontend, this application is a controller giving you control of a DJI Tello drone via web browser, but that was only at the surface. Eventually, I was able to build in some automation and stunts, I still have much more planned for this project. Keep an eye on its GitHub if you are interested! In this project, I learned data transfering, working with hardware, it honed my Node.js ablities, as well as building an independant project from an idea to a presentation. By far, one of my favorite projects.
                         </CardText>
                         <CardActions border>
                             <Button
@@ -135,7 +135,7 @@ class Projects extends React.Component {
                 <div className="projects-flexWrap">
                     {/* Seller2Cellar */}
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${c2s}) center / cover` }}>Seller2Celler</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: `url(${c2s}) center / cover` }}>Seller2Cellar</CardTitle>
                         <CardText>
                             This project was completed with a group of 5 including myself. Seller2Cellar is a full stack application allowing the user to catalogue their wine collection and buy/sell with other users. My duties included Frontend and User experience. I learned how to complete a task under extreme pressure, working late into the night with a fellow student. I had finally gotten a taste of deadlines and how it may feel impossible to meet them, but pushing through and being proud of what you accoplished. Even if it wan't considered perfect. 
                         </CardText>
@@ -145,7 +145,7 @@ class Projects extends React.Component {
                                 target="_blank"
                                 colored ripple>Website</Button>
                             <Button
-                                href="https://github.com/VolksRat71/project-1"
+                                href="https://github.com/VolksRat71/Cellar2Sellers"
                                 target="_blank"
                                 colored ripple>Github</Button>
                         </CardActions>
@@ -222,7 +222,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${rdtrpzIMG}) center / cover` }}>RoadtripperZzz</CardTitle>
                         <CardText>
-                            This application was built with a group of 4 including myself. It was intended to help the indecisive traveler choose a destination within the Pacific Northwest. My Primary duties included layout and general front-end User Experience. I also built in an obvious easter egg, which I hope you enjoy. In this project, I leanred how to build a application as a team memeber rather than independantly. It tought me how to use vanilla javascript logic in a "real-world" setting as well as honeing my Bootstrap and HTML abilities. 
+                            This application was built with a group of 4 including myself. It was intended to help the indecisive traveler choose a destination within the Pacific Northwest. My Primary duties included layout and general front-end User Experience. I also built in an obvious easter egg, which I hope you enjoy. In this project, I learned how to build a application as a team memeber rather than independantly. It tought me how to use vanilla javascript logic in a "real-world" setting as well as honeing my Bootstrap and HTML abilities. 
                         </CardText>
                         <CardActions border>
                             <Button
@@ -256,7 +256,7 @@ class Projects extends React.Component {
                     <Card className="projectCard" shadow={5} style={{ width: '512px', margin: 'auto', borderRadius: 15, marginBottom: 20 }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: `url(${trainIMG}) center / cover` }}>Train Scheduler</CardTitle>
                         <CardText>
-                            A mostly frontend application that communicates with a Google Firebase Database. Feel free to add your own trains to the schedule, as I will keep an eye on the database for any changes! I learned how to use a database and dynamically insert into a Bootstrap table.
+                            A mostly frontend application that communicates with a Google Firebase. Feel free to add your own trains to the schedule, as I will keep an eye on the database for any changes! I learned how to use a database and dynamically insert into a Bootstrap table.
                         </CardText>
                         <CardActions border>
                             <Button
