@@ -9,6 +9,10 @@
     height: 100%;
 }
 
+.material-icons {
+    color: #808080
+}
+
 /* Home Page */
 .landing-grid {
     background: #1e130c;
@@ -41,13 +45,21 @@
 }
 
 .banner-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 10px;
     animation-name: reset, fade-in;
     animation-duration: .6s;
     animation-timing-function: ease-in;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
 .banner-text h1 {
@@ -178,7 +190,6 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F8CDDA, #1D2B64);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .projects-flexWrap {
@@ -624,8 +635,9 @@ section:last-child {
     width: 80%;
     height: 100%;
     color: #000;
-    margin-bottom: 20px;
-    margin-top: 115px;
+    background: #00F0D9;
+    width: 100%;
+    height: 125%;
 }
 
 .contact-grid h2 {
@@ -642,14 +654,11 @@ section:last-child {
     margin: auto;
 }
 
-
-.contact-grid {
-    background: #00F0D9;
-    width: 100%;
-    height: 100%;
-}
-
 .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     width: 75%;
     margin: 0 auto;
@@ -736,9 +745,9 @@ section:last-child {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-timing-function: ease-in;
+    animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
 }
 
 .FourOhFour img {

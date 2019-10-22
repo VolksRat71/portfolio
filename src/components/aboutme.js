@@ -27,13 +27,12 @@ class About extends Component {
                             alt="hello"
                             className="hello"
                         />
-                        {/* 250 words */}
                         <p className="aboutMe_bio">
-                            I come from a small coal town in the Midwest. I moved to the West Coast to pursue a career in technology and computer sciences. I am currently a free agent
-                            with a formal education through the University of Oregon. My studies have given me proficiency in a wide array of technologies and design capabilities, such as ReactJS,
-                            NodeJS, and JavaScript in general. I am interested in following whichever development path my career points me to, although I do have a keen eye for UI/UX.
-                            Discovery of this ability has pivoted my focus to backend development, because I realized it is something I need to work on. I am a quick learner and very passionate,
-                            whether it be cars or computers. Knowing "how it works" is my forte. Please reach out; employers, designers, students and all. I am excited to hear from you!
+                            I come from a small coal town in the Midwest. My hobbies include working on cars, learning how machines operate & building software. I moved to the West Coast to pursue a career in
+                            technology and computer sciences. I am currently a free agent with a formal education through the University of Oregon. My studies have given me proficiency in a wide
+                            array of technologies and design capabilities, such as ReactJS, NodeJS, and JavaScript in general. I am interested in following whichever development path my career
+                            points me to, although I do have a keen eye for UI/UX. I am a quick learner and very passionate, whether it be cars or computers. Knowing "how it works" is my forte.
+                            Please reach out; employers, designers, students and all. I am excited to hear from you!
                         </p>
                     </Cell>
                 </Grid>

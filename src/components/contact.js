@@ -9,7 +9,7 @@ import img from '../assets/site_helper/contact-me.gif';
 class Contact extends Component {
     render() {
         return (
-            <div className="contactMe" style={{ width: '100%', margin: 'auto' }}>
+            <div className="contactMe" style={{ width: '100%', margin: 'auto', height: '100%' }}>
                 <Grid className="contact-grid">
                     <Cell col={12}>
                         <img
@@ -23,12 +23,11 @@ class Contact extends Component {
                                 <hr />
                                 <p className="lets_talk">
                                     If you wanna get in touch, talk to me about employment, internships, a project collaboration or just say "hi",
-                                    use my phone number, email me, add me on LinkdIn or GitHub; take advantage of my many paths of
-                                    communication. ~let's talk
+                                    use my phone number, email me, add me on LinkedIn or GitHub. ~let's talk
                                 </p>
                                 <div className="contact-links">
                                     <a href="tel:503-504-7581"
-                                        title="nathanieljryan1994@gmail.com">
+                                        title="(503) 504-7581">
                                         <i class="fa fa-phone"></i>
                                         <p>(503) 504-7581</p>
                                     </a>
@@ -42,7 +41,7 @@ class Contact extends Component {
                                         target="_blank"
                                         rel="noopener noreferrer">
                                         <i class="fa fa-linkedin" aria-hidden="true" />
-                                        <p>LinkdIn</p>
+                                        <p>LinkedIn</p>
                                     </a>
                                     <a href="https://github.com/VolksRat71"
                                         title="Github VolksRat71"

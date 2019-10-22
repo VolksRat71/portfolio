@@ -8,7 +8,7 @@ class LandingPage extends Component {
             <div style={{ width: '100%', margin: 'auto', height: '100%' }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <a href='/resume'>
+                        <a href='http://www.nathaniel-j-ryan.com/resume'>
                             <img
                                 src={img}
                                 alt="landing avatar"
