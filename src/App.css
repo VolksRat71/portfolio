@@ -18,16 +18,17 @@
 
 /* Home Page */
 .landing-grid {
-    background: #1e130c;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #9a8478, #1e130c);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #9a8478, #1e130c);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    text-align: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+    background: url(./assets/site_helper/homebkgrnd.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1328px) {
+    .landing-grid {
+        height: 100%;
+    }
 }
 
 .landing-avatar {
@@ -638,12 +639,20 @@ section:last-child {
 }
 
 .contact-grid {
-    background: #00F0D9;
+    background: url(./assets/site_helper/contactbkround.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     text-align: center;
     justify-content: center;
     color: #000;
-    padding: 0;
-    margin: 0;
+}
+
+@media only screen and (min-width: 1328px) {
+    .contact-grid {
+        height: 100%;
+    }
 }
 
 .contact-grid h2 {
