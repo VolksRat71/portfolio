@@ -6,7 +6,10 @@
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+    padding: 0;
+    margin: 0;
     height: 100%;
+    width: 100%;
 }
 
 .material-icons {
@@ -21,7 +24,10 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #9a8478, #1e130c);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .landing-avatar {
@@ -86,16 +92,18 @@
 
 .social-links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
-    margin: auto;
+    width: 100%;
     transition: transform .2s;
 }
 
 .social-links i {
     color: white;
     font-size: 1em;
-    margin: 15px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     transition: transform .2s;
 }
 
@@ -630,14 +638,12 @@ section:last-child {
 }
 
 .contact-grid {
+    background: #00F0D9;
     text-align: center;
     justify-content: center;
-    width: 80%;
-    height: 100%;
     color: #000;
-    background: #00F0D9;
-    width: 100%;
-    height: 125%;
+    padding: 0;
+    margin: 0;
 }
 
 .contact-grid h2 {
