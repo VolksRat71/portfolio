@@ -6,14 +6,21 @@
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      var targetId = this.hash;
+      if (targetId == "#awards" || targetId == "#about") {
+        var cubic = "easeInOutQuint"
+      } else {
+        var cubic = "easeInOutBack"
+      }
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top)
-        }, 1500, "easeInOutBack");
+          scrollTop: (target.offset().top),
+        }, 1500, cubic);
         return false;
       }
     }
   });
+
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function () {
