@@ -7,11 +7,12 @@
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       var targetId = this.hash;
-      if (targetId == "#awards" || targetId == "#about") {
+      if (targetId == "#awards" || targetId == "#about" || targetId == "#page-top") {
         var cubic = "easeInOutQuint"
       } else {
         var cubic = "easeInOutBack"
       }
+      console.log(targetId);
       if (target.length) {
         $('html, body').animate({
           scrollTop: (target.offset().top),
