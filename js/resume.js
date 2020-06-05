@@ -6,13 +6,14 @@
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Cubic-bezier determined by Nav selection
       var targetId = this.hash;
       if (targetId == "#awards" || targetId == "#about" || targetId == "#page-top") {
         var cubic = "easeInOutQuint"
       } else {
         var cubic = "easeInOutBack"
       }
-      console.log(targetId);
+      // Using Cubic
       if (target.length) {
         $('html, body').animate({
           scrollTop: (target.offset().top),
@@ -35,6 +36,7 @@
 
 })(jQuery); // End of use strict
 
+// Bootstrap pop over
 $(function () {
   $('[data-toggle="popover"]').popover()
 })
