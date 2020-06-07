@@ -66,6 +66,7 @@ p.lead {
     }
     &:hover {
       background-color: $primary;
+      transform: scale(1.1);
     }
   }
 }
