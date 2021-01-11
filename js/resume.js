@@ -8,7 +8,7 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       // Cubic-bezier determined by Nav selection
       var targetId = this.hash;
-      if (targetId == "#awards" || targetId == "#about" || targetId == "#page-top") {
+      if (targetId == "#interests" || targetId == "#about" || targetId == "#page-top") {
         var cubic = "easeInOutQuint"
       } else {
         var cubic = "easeInOutBack"
